@@ -6,7 +6,7 @@ module.exports = {
     theme: "vdoing",
     title: "vuepress-blog",
     description: '基于vuepress 搭建的博客',
-    base: "/",
+    base: "./",
     markdown: {
         lineNumbers: true
     },
