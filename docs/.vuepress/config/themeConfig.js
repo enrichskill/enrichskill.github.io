@@ -4,7 +4,7 @@ const htmlModules = require("./htmlModules.js");
 // Theme Config
 module.exports = {
     nav,
-    sidebarDepth: 2,
+    sidebarDepth: 4,
     logo: "/img/logo.svg",
     repo: "baomidou/mybatis-plus",
     searchMaxSuggestions: 10,
