@@ -40,5 +40,5 @@ jobs:
           user: ${{ secrets.ECS_USERNAME }}
           pass: ${{ secrets.ECS_PASSWORD }}
           connect_timeout: 10s
-          local: './docs/.vuepress/dist/*'
+          local: './docs/.vuepress/dist/**'
           remote: '/var/www/html/'
